@@ -1,0 +1,31 @@
+.filter-menu-container {
+    min-width: 220px;
+
+    :global {
+        .ant-checkbox-group {
+            display: inline-grid;
+            padding: 0 @padding-lg;
+        }
+
+        .ant-checkbox-wrapper {
+            padding: @padding-xss 0;
+        }
+
+        .ant-menu-submenu-title {
+            cursor: default;
+
+            &:hover {
+                color: initial;
+            }
+        }
+
+        .ant-menu-submenu-arrow {
+            display: none;
+        }
+    }
+}
+
+.buttons {
+    padding: @padding-xs;
+    border-top: 1px solid @black-6;
+}
